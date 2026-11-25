@@ -1,0 +1,34 @@
+body {
+    text-align: center;
+   
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body {
+    position: relative;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.4k7YsZFRCVGbUttvkm5odAAAAA%3Fr%3D0%26pid%3DApi&f=1&ipt=5d6af15e11e994957113b568db576f624ca9fa27ff1762c4266fa3bd8293b91d&ipo=images");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.6;
+    z-index: -1;
+}
+
+.cool {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.cool img {
+    width: 300px;
+    height: auto;
+}
+
+.paragraphs {
+    flex: 1;
+}
